@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1008301845306",
+    "firebase_url": "https://databaseview-5b1ee.firebaseio.com",
+    "project_id": "databaseview-5b1ee",
+    "storage_bucket": "databaseview-5b1ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008301845306:android:9c9b4190476354a6",
+        "android_client_info": {
+          "package_name": "it.arisetech.app.arish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008301845306-b461fdk323aofqch524h9fk7fjkc3cbp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.arisetech.app.arish",
+            "certificate_hash": "3f5a2176dfd1ae6ae953eeecf5cb53825c756180"
+          }
+        },
+        {
+          "client_id": "1008301845306-i5a6i6pfrjuisl5otti94s7hjqn5givj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQeFpfk2uj0OBp2yeXSvShX2onB5TLnRE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008301845306-i5a6i6pfrjuisl5otti94s7hjqn5givj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

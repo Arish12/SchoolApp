@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f9fbfc"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#ed3258"
+            app:elevation="@dimen/default_elevation"
+            app:layout_collapseMode="pin"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="center_horizontal"
+                android:src="@drawable/img_toolbar_logo"
+                />
+        </android.support.v7.widget.Toolbar>
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fitsSystemWindows="true">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="56dp"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp">
+
+                <ImageView android:src="@drawable/header_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_marginBottom="24dp"
+                    android:layout_gravity="center_horizontal" />
+
+                <!--  Email Label -->
+                <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                    android:id="@+id/android_marks_faculty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="FACULTY"
+                    app:met_floatingLabel = "normal"
+
+
+                    />
+
+                <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                    android:id="@+id/android_marks_grade"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="GRADE"
+                    app:met_floatingLabel = "normal"
+
+
+                    />
+                <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                    android:id="@+id/android_marks_sec"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="SECTION"
+                    app:met_floatingLabel = "normal"
+
+
+                    />
+                <EditText
+                    android:id="@+id/etRoll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Roll NO"/>
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/btn_submit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="24dp"
+                    android:padding="12dp"
+                    android:text="SUBMIT"/>
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

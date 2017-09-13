@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menu_group_1">
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/menu_event"
+            android:title="Event"
+            />
+        <item
+            android:id="@+id/menu_feed"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Gallery" />
+        <group android:title="Catagori">
+        <item
+            android:id="@+id/menu_profile"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Profile" />
+
+</group>
+
+    </group>
+    <group android:id="@+id/menu_group_2">
+        <item
+            android:id="@+id/menu_settings"
+            android:icon="@drawable/ic_global_menu_feed"
+            android:title="About Us" />
+        <item
+            android:id="@+id/menu_about"
+            android:icon="@drawable/ic_global_menu_feed"
+            android:title="Logout " />
+    </group>
+</menu>
